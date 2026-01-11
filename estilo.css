@@ -1,3 +1,30 @@
+table {
+    border-collapse: collapse; /* Removes space between borders */
+    width: 100%;
+  
+  td {
+    border: 5px solid rgb(255, 255, 255); /* Adds a border for visibility */
+    border-radius: 15px;/* Arredonda todos os cantos da tabela */
+    padding: 10px;
+    text-align: center; /* Centers images within cells */
+  }
+
+  img {
+    width: 150px; /* Sets a consistent width for images */
+    height: auto; /* Maintains the image's aspect ratio */
+    display: block; /* Helps with centering and sizing */
+    margin: 0 auto; /* Centers the image horizontally */
+  }
+
+  a {
+      text-decoration: none; /* Removes the default underline from the link */
+  }
+  
+}
+
+table td:hover{
+    background-color: #70a1ec6c;
+}
 .azul_centro {
     color: blue;
     text-align: center;
@@ -115,4 +142,5 @@ main{
 }
 
 .verm {color: red
+
 } 
