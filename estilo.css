@@ -125,12 +125,14 @@ main{
     padding: 15px;
     display: block;
     text-align: center;
+    border-radius: 25px;
 }
 .navbar2 a:hover{
     background-color: rgb(28, 32, 100);
 }
 .navbar2 li{
     float: left;
+    margin: 5px; 
 }
 
 .azul {color: blue
@@ -144,3 +146,4 @@ main{
 .verm {color: red
 
 } 
+
