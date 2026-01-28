@@ -9,10 +9,6 @@
   justify-content: center;
 }
 
-.imgcentro {
-  width: 50%;
-}
-
 table {
     border-collapse: collapse; /* Removes space between borders */
     width: 100%;
@@ -188,6 +184,7 @@ main{
 
 .verm {color: red
 } 
+
 
 
 
