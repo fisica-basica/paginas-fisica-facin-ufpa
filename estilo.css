@@ -1,5 +1,12 @@
+ul.lista-espacada li {
+    margin-bottom: 15px; /* Adiciona espaço abaixo de cada item */
+    margin-left: 100px;
+    margin-right: 100px;
+
+  }
+
 .imagem-com-espaco {
-    margin: 30px; /* Espaço fora da imagem (top, right, bottom, left) */
+    margin: 20px; /* Espaço fora da imagem (top, right, bottom, left) */
     padding: 10px; /* Espaço dentro da imagem (se houver borda/fundo) */
     border: 1px solid #ccc; /* Apenas para visualizar o padding */
   }
@@ -7,6 +14,10 @@
 .divcentro {
   display: flex;
   justify-content: center;
+}
+
+.imgcentro {
+  width: 100%;
 }
 
 table {
@@ -36,6 +47,7 @@ table {
 table td:hover{
     background-color: #70a1ec6c;
 }
+
 .azul_centro {
     color: blue;
     text-align: center;
@@ -73,6 +85,12 @@ table td:hover{
 .caption {
     font-style: italic;
     color: #555;
+    text-align: center; 
+    display:table-row;
+}
+
+.captionComentario {
+    color: blue;
     text-align: center; 
     display:table-row;
 }
@@ -140,13 +158,13 @@ main{
     border-radius: 25px;
     border-width: 1px;
     border-style: solid;
-}
+    }
 .navbar2 a:hover{
     background-color: rgb(28, 32, 100);
 }
 .navbar2 li{
     float: left;
-    margin: 5px; 
+    margin: 5px;    
 }
 
 .navbar3 ul{
@@ -174,6 +192,7 @@ main{
     float: left;
     margin: 5px;    
 }
+
 .azul {color: blue
 }
 
@@ -184,10 +203,3 @@ main{
 
 .verm {color: red
 } 
-
-
-
-
-
-
-
