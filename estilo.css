@@ -1,3 +1,18 @@
+.whiteCaption {
+    font-style: italic;
+    color: white;
+    text-align: center; 
+    display:table-row;
+}
+
+.divcentroBlackBorder {background-color:black;
+  margin-right: 400px;
+  margin-left: 400px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #000; /* Adiciona uma borda preta */
+}
+
 ul.lista-espacada li {
     margin-bottom: 15px; /* Adiciona espaço abaixo de cada item */
     margin-left: 100px;
