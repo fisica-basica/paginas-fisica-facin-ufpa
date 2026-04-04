@@ -1,3 +1,21 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between; /* Distribui as colunas */
+    align-items: center; /* Alinha verticalmente */
+    padding: 10px;
+    background-color: #f4f4f4;
+    color: red;
+}
+
+.coluna {
+    flex: 1; /* Faz as colunas terem tamanhos iguais */
+    text-align: center;
+}
+
+/* Opcional: Alinhamentos específicos */
+.coluna:first-child { text-align: left; }
+.coluna:last-child { text-align: right; }
+
 .whiteCaption {
     font-style: italic;
     color: white;
@@ -83,7 +101,8 @@ table td:hover{
     gap: 20px; /* Adds space between the figure and the h1 */
     border: 2px solid lightgray;
     padding: 10px;
-    color: red;    
+    color: red;
+    background-color: #f4f4f4;
 }
 
 .small-logo {
