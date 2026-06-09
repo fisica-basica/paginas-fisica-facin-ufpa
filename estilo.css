@@ -21,9 +21,9 @@
     align-items: stretch;
     padding: 60px 10px 40px 10px;
 }
-.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+.rodape-div-1, .rodape-div-2, .rodape-div-3{
     display: flex;
-    width: calc(100% / 4 - 20px);
+    width: calc(100% / 3 - 20px);
     padding: 10px;
 }
 .rodape span{
@@ -39,13 +39,18 @@
 }
 /*mobile*/
 @media (max-width: 768px) {
-    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    .rodape-div-1, .rodape-div-2, .rodape-div-3{
         width: calc(50% - 20px);
         padding: 10px;
     }
     .rodape-div{
         padding: 60px 0px 40px 0px;
     }
+}
+
+.unidade_centro_azul {
+    text-align: center;
+    color: blue;
 }
 
 .cabecalho {
